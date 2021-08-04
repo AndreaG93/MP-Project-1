@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <!-- This "LinearLayout" is used to show name, brand and a representative image of a "Product" -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <!-- This "Image View" shows a representative image of a specified product. -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:id="@+id/custom_list_row_product_image"
+            android:layout_weight="35"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_weight="5">
+
+            <!-- This "Text View" shows the name of a specified product. -->
+            <TextView
+                android:id="@+id/custom_list_row_product_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <!-- This "Text View" shows the brand of a specified drink. -->
+            <TextView
+                android:id="@+id/custom_list_row_product_brand"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:paddingBottom="5dp"
+                android:paddingStart="5dp"
+                android:textSize="12sp"
+                android:textStyle="italic"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- This "LinearLayout" is used to show price of a "Product" -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+
+        <!-- These "Text View" show the price of a specified product. -->
+
+        <TextView
+            android:id="@+id/custom_list_row_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+    <!-- This "LinearLayout" is used to show alcohol content of a "Product" -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp">
+
+        <!-- These "Text View" show the price of a specified product. -->
+        <TextView
+            android:id="@+id/custom_list_row_alcohol_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Caffé Latrino</string>
+
+    <string name="Not_Alcohol">You cannot add alcohol to selected product</string>
+    <string name="complete_your_order">Compete your order</string>
+
+    <string name="Thank_you">Thanks for using this USELESS app</string>
+    <string name="EXIT">Exit</string>
+
+    <!-- Useful string -->
+    <string name="str_cancel">Cancel</string>
+    <string name="str_done">Done</string>
+    <string name="str_ok">OK</string>
+    <string name="str_yes">yes</string>
+    <string name="str_no">no</string>
+
+    <!-- Other string -->
+    <string name="str_choice_you_chose">You chose:</string>
+    <string name="str_sugar_free_drink">Sugar-free drink</string>
+    <string name="str_alcohol_free_drink">Drink without alcohol</string>
+    <string name="str_sugar_quantity">Quantity:</string>
+    <string name="str_price">€:</string>
+    <string name="str_alcohol_content">Alcohol content:</string>
+
+    <!-- *************************************************************************************** -->
+    <!-- Selector strings -->
+
+    <string name="str_add_sweetener">Select a sweetener</string>
+    <string name="str_add_alcohol">Select alcohol</string>
+    <string name="str_add_info">Touch to custom your drink.</string>
+
+    <!-- *************************************************************************************** -->
+    <!-- Title of activities -->
+
+    <string name="str_activity_1">Select a drink</string>
+    <string name="str_activity_2">Custom your drink</string>
+    <string name="str_activity_3">Select a sweetener</string>
+    <string name="str_activity_4">Select a alcohol</string>
+
+    <!-- *************************************************************************************** -->
+    <!-- Products -->
+    <!-- *************************************************************************************** -->
+
+    <!-- type -->
+    <string name="str_drink">Drinks</string>
+    <string name="str_alcohol">Alcohol</string>
+    <string name="str_Sweetener">Sweetener</string>
+
+    <!-- Brand -->
+    <string name="str_graziani_store">Graziani Store</string>
+    <string name="str_zuccheri_cinti">Zuccheri Cinti</string>
+    <string name="str_corem">COREM</string>
+
+    <!-- Drinks -->
+    <string name="str_espresso">Espresso</string>
+    <string name="str_macchiato">Macchiato</string>
+    <string name="str_decaffeinated_coffee">Decaffeinated coffee</string>
+    <string name="str_ginseng_coffee">Ginseng coffee</string>
+    <string name="str_barley_coffee">Barley coffee</string>
+    <string name="str_cappuccino">Cappuccino</string>
+    <string name="str_chocolate">Chocolate</string>
+    <string name="str_tea">Tea</string>
+    <string name="str_milk">Milk</string>
+
+    <!-- Alcohol -->
+    <string name="str_wine">Wine</string>
+    <string name="str_beer">Beer</string>
+    <string name="str_grappa">Grappa</string>
+    <string name="str_brandy">Brandy</string>
+
+    <!-- Sweetener -->
+    <string name="str_sugar">Sugar</string>
+    <string name="str_brown_sugar">Brown sugar</string>
+    <string name="str_fructose">Fructose</string>
+
+    <!-- *************************************************************************************** -->
+    <!-- Dialog String - Sort by - -->
+    <!-- *************************************************************************************** -->
+
+    <string name="str_dialog_sort_by">Sort by</string>
+
+    <string name="str_dialog_name_choice">Name</string>
+    <string name="str_dialog_price_choice">Price</string>
+
+    <!-- *************************************************************************************** -->
+    <!-- Dialog String - Order by - -->
+    <!-- *************************************************************************************** -->
+
+    <string name="str_dialog_order_by">Order by</string>
+
+    <string name="str_dialog_asc_choice">Ascending</string>
+    <string name="str_dialog_des_choice">Descending</string>
+
+</resources>
