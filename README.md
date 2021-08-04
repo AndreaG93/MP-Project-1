@@ -1,1 +1,1 @@
-# MP-Project-1 (also called "CafféLatrino")
+# MP-Project-1 (also called "CaffèLatrino")
